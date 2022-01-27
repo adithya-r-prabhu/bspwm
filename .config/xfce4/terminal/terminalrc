@@ -1,8 +1,7 @@
 [Configuration]
-BackgroundDarkness=0.860000
+BackgroundDarkness=0.980000
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -28,17 +27,22 @@ MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=TRUE
 MiscNewTabAdjacent=FALSE
-ColorForeground=#e3e3ea
-ColorBackground=#08052b
-ColorPalette=rgb(8,5,43);rgb(255,127,127);rgb(71,179,93);rgb(204,57,128);rgb(127,186,255);rgb(127,63,191);rgb(127,127,255);rgb(205,204,219);rgb(127,186,255);rgb(255,127,127);rgb(153,153,204);rgb(255,127,127);rgb(127,127,255);rgb(127,63,191);rgb(127,127,255);rgb(227,227,234)
+ColorForeground=#CCCCCC
+ColorBackground=#1E1E1E
+ColorPalette=#6A787A;#E9653B;#39E9A8;#E5B684;#44AAE6;#E17599;#3DD5E7;#C3DDE1;#598489;#E65029;#00FF9A;#E89440;#009AFB;#FF578F;#5FFFFF;#D9FBFF
 ScrollingUnlimited=TRUE
 TitleMode=TERMINAL_TITLE_REPLACE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 TextBlinkMode=TERMINAL_TEXT_BLINK_MODE_FOCUSED
-FontName=Source Code Pro 10
+FontName=Monospace 13
 ColorCursorForeground=#FFFFFF
-ColorCursor=#ff7f7f
+ColorCursor=#CCCCCC
 ColorCursorUseDefault=FALSE
 ColorBold=#7fbaff
 ColorBoldIsBright=FALSE
 TabActivityColor=#47B35D
+BackgroundImageFile=/home/arp/.config/background
+BackgroundImageShading=0.830000
+BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_CENTERED
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+

@@ -12,15 +12,10 @@ super + d
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
-# show open window
-super + ctrl + d
-	rofi -modi drun -show window -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
-                -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
-# show ssh sesssions
-super + shift + d
-	rofi -modi drun -show ssh -line-padding 4 \
+# show open window
+alt + d
+	rofi -modi drun -show window -line-padding 4 \
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
@@ -32,6 +27,9 @@ super + shift + e
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# kill polybar
+super +p + Escape
+	pkill -USR1 polybar
 #
 # bspwm hotkeys
 #
@@ -41,8 +39,8 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }q
-	bspc node -{c,k}
+super + q
+	bspc node -c
 
 # alternate between the tiled and monocle layout
 super + m
@@ -100,7 +98,20 @@ super + {o,i}
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+	bspc {desktop -f,node -d} '^{1-9,10}' --follow
+
+# switch to next desktop
+super + {Left,Right} 
+    bspc desktop -f {prev,next}.local --follow;
+
+# move Node to next desktop
+super + shift + {Left,Right} 
+    bspc node -d {prev,next}.local --follow
+
+# cycle through windows
+alt + Tab
+	bspc node -f next.local.window --follow
+
 
 #
 # preselect
@@ -137,6 +148,8 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
 #
 # Special hotkeys
 #
@@ -173,10 +186,17 @@ super + Print
 
 # Shortcuts
 super + w 
-  firefox
+  microsoft-edge-beta
 
 super + n 
   thunar  
 
 super + F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
+
+alt + s 
+  flameshot gui
+
+# my scrcpy and droidcam and samsung phone setup
+alt + c
+	scrcpy & sleep 3 &&  xdotool search --onlyvisible --any scrcpy key --window %@ Right Right Return && sleep
