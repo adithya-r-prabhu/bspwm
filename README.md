@@ -34,3 +34,14 @@ https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
 
 ![bspwm](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/bspwm.png)
+
+
+## To change icons on polybar
+
+### [GNOME Character Map](https://en.wikipedia.org/wiki/GNOME_Character_Map) 
+`gucharmap` is a convenient utility for browsing selected fonts. Filter `View > By Unicode Block + Show only glyphs from this font` and navigate to Private Use Area.
+If you find an icon in `gucharmap` but don't know which font it's from, you can hover over it and right click to display the font.
+
+#### reference 
+
+https://github.com/polybar/polybar/wiki/Fonts
