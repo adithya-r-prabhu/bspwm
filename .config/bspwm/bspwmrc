@@ -4,6 +4,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d  I II III IV V VI VII VIII IX X
 
+
+#make bspwm launch the workspace  III on startup or it move there instantly 
+bspc desktop III --focus
+
 bspc config border_width         0
 bspc config window_gap          5
 
@@ -48,7 +52,3 @@ nm-applet --indicator &
 
 # Cursor
 xsetroot -cursor_name left_ptr &
-
-
-#make bspwm launch the workspace  III on startup or it move there instantly 
-bspc desktop III --focus

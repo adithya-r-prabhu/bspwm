@@ -80,7 +80,7 @@
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
     <property name="workspace_names" type="array">
-      <value type="string" value="I"/>
+      <value type="string" value="Desktop"/>
       <value type="string" value="II"/>
       <value type="string" value="III"/>
       <value type="string" value="IV"/>

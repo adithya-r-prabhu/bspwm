@@ -113,11 +113,6 @@ alt + Tab
 	bspc node -f next.local.window --follow 
 
 
-# Focus a floating window / Cycle floating windows.
-super + {_,shift + }g
-	bspc node 'focused.floating#{next,prev}.local.!hidden.floating' -f \
-	    || bspc node 'last.local.!focused.!hidden.floating' -f \
-	    || bspc node  'any.local.!focused.!hidden.floating' -f
 #
 # preselect
 #
@@ -202,6 +197,4 @@ super + F1
 alt + s 
   flameshot gui
 
-# my scrcpy and droidcam and samsung phone setup
-alt + c
-	scrcpy & sleep 3 &&  xdotool search --onlyvisible --any scrcpy key --window %@ Right Right Return && sleep
+

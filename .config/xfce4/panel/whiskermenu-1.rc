@@ -1,5 +1,5 @@
 favorites=firefox.desktop,xfce4-terminal.desktop,org.xfce.Parole.desktop,galculator.desktop,thunar.desktop,xfce4-taskmanager.desktop,xfce-settings-manager.desktop,pavucontrol.desktop,eos-log-tool.desktop,welcome.desktop
-recent=droidcam.desktop,pavucontrol.desktop,xfce4-terminal.desktop,microsoft-edge-beta.desktop,thunar.desktop,xfce4-taskmanager.desktop
+recent=xfce4-terminal.desktop,io.github.shiftey.Desktop.desktop,droidcam.desktop,pavucontrol.desktop,microsoft-edge-beta.desktop,thunar.desktop
 button-title=EndeavourOS\ \ 
 button-icon=/usr/share/endeavouros/EndeavourOS-icon.png
 button-single-row=false
