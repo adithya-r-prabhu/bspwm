@@ -49,4 +49,18 @@ https://github.com/polybar/polybar/wiki/Fonts
 
 
 ## Hardlink files to the git folder to push
-```cp -r -l /home/$USER/.config/bspwm /home/$USER/Documents/GitHub/bspwm/.config/```
+```
+cp -r -l /home/$USER/.config/bspwm /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/dunst /home/$USER/Documents/GitHub/bspwm/.config
+cp -r -l /home/$USER/.config/gtk-3.0  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/nitrogen  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/polybar  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/rofi  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/sxhkd  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/termite  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/xfce4  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/picom.conf /home/$USER/Documents/GitHub/bspwm/.config/
+
+
+
+```
