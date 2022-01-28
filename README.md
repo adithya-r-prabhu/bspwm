@@ -11,9 +11,7 @@
 <!-- ## To Install manually
 
     git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
-
     cd bspwm
-
     bash bspwm-install.sh
    
 ## Contained In The Script
@@ -28,8 +26,10 @@
     dbus-launch dconf load / < xed.dconf -->
     
 <!--  Code that was here by default  ends -->
- Install Endevour os bspwm edition
-     git clone https://github.com/adithya-r-prabhu/bspwm.git
+
+ Install Endevour os bspwm edition then 
+ 
+    git clone https://github.com/adithya-r-prabhu/bspwm.git
 
     cd bspwm
 
