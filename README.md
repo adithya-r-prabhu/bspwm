@@ -6,13 +6,12 @@
  
  ![image](https://user-images.githubusercontent.com/83577193/151557941-c7a88bc2-9e47-4a93-9b9e-d7e72cea26ae.png)
 
+<!-- Code that was here by default  -->
 
-## To Install manually
+<!-- ## To Install manually
 
     git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
-
     cd bspwm
-
     bash bspwm-install.sh
    
 ## Contained In The Script
@@ -24,8 +23,19 @@
         
     yay -Syu --needed --noconfirm - < packages-repository.txt
     
-    dbus-launch dconf load / < xed.dconf
+    dbus-launch dconf load / < xed.dconf -->
     
+<!--  Code that was here by default  ends -->
+
+ Install Endevour os bspwm edition then 
+ 
+    git clone https://github.com/adithya-r-prabhu/bspwm.git
+
+    cd bspwm
+
+    bash setup.sh
+  
+ 
 ## Get involved at our forum:
 https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
