@@ -11,6 +11,7 @@ git clone https://github.com/adithya-r-prabhu/bspwm.git
 cd bspwm
 mkdir -p /home/$NEW_USER/.local/share/fonts
 cp IosevkaTermNerdFontComplete.ttf /home/$NEW_USER/.local/share/fonts/
+cp Inter-Regular.ttf /home/$NEW_USER/.local/share/fonts/
 cp -R .config /home/$NEW_USER/                                               
 cp .gtkrc-2.0 /home/$NEW_USER/
 chown -R $NEW_USER:$NEW_USER /home/$NEW_USER/.local

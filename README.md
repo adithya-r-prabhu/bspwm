@@ -1,7 +1,10 @@
 # BSPWM Setup and Theme for EndeavourOS
 **BSPWM EndeavorOS Community Edition**
 
-<img src="https://user-images.githubusercontent.com/83577193/151338147-81198c76-1e74-4dea-84a3-063717ef6ce3.png" alt="bspwm" style="width:200%;"/>
+<!-- <img src="https://user-images.githubusercontent.com/83577193/151338147-81198c76-1e74-4dea-84a3-063717ef6ce3.png" alt="bspwm" style="width:200%;"/>
+ -->
+ 
+ ![image](https://user-images.githubusercontent.com/83577193/151557941-c7a88bc2-9e47-4a93-9b9e-d7e72cea26ae.png)
 
 
 ## To Install manually
@@ -46,3 +49,21 @@ If you find an icon in `gucharmap` but don't know which font it's from, you can 
 #### reference 
 
 https://github.com/polybar/polybar/wiki/Fonts
+
+
+## Hardlink files to the git folder to push
+```
+cp -r -l /home/$USER/.config/bspwm /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/dunst /home/$USER/Documents/GitHub/bspwm/.config
+cp -r -l /home/$USER/.config/gtk-3.0  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/nitrogen  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/polybar  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/rofi  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/sxhkd  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/termite  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/xfce4  /home/$USER/Documents/GitHub/bspwm/.config/
+cp -r -l /home/$USER/.config/picom.conf /home/$USER/Documents/GitHub/bspwm/.config/
+
+
+
+```
