@@ -110,9 +110,14 @@ super + shift + {Left,Right}
 
 # cycle through windows
 alt + Tab
-	bspc node -f next.local.window --follow
+	bspc node -f next.local.window --follow 
 
 
+# Focus a floating window / Cycle floating windows.
+super + {_,shift + }g
+	bspc node 'focused.floating#{next,prev}.local.!hidden.floating' -f \
+	    || bspc node 'last.local.!focused.!hidden.floating' -f \
+	    || bspc node  'any.local.!focused.!hidden.floating' -f
 #
 # preselect
 #
