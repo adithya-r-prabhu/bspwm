@@ -1,7 +1,10 @@
 # BSPWM Setup and Theme for EndeavourOS
 **BSPWM EndeavorOS Community Edition**
 
-<img src="https://user-images.githubusercontent.com/83577193/151338147-81198c76-1e74-4dea-84a3-063717ef6ce3.png" alt="bspwm" style="width:200%;"/>
+<!-- <img src="https://user-images.githubusercontent.com/83577193/151338147-81198c76-1e74-4dea-84a3-063717ef6ce3.png" alt="bspwm" style="width:200%;"/>
+ -->
+ 
+ ![image](https://user-images.githubusercontent.com/83577193/151557941-c7a88bc2-9e47-4a93-9b9e-d7e72cea26ae.png)
 
 
 ## To Install manually
