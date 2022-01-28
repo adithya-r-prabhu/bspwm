@@ -46,3 +46,7 @@ If you find an icon in `gucharmap` but don't know which font it's from, you can 
 #### reference 
 
 https://github.com/polybar/polybar/wiki/Fonts
+
+
+## Hardlink files to the git folder to push
+```cp -r -l /home/$USER/.config/bspwm /home/$USER/Documents/GitHub/bspwm/.config/```
