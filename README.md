@@ -73,7 +73,9 @@ cp -r -l /home/$USER/.config/sxhkd  /home/$USER/Documents/GitHub/bspwm/.config/
 cp -r -l /home/$USER/.config/termite  /home/$USER/Documents/GitHub/bspwm/.config/
 cp -r -l /home/$USER/.config/xfce4  /home/$USER/Documents/GitHub/bspwm/.config/
 cp -r -l /home/$USER/.config/picom.conf /home/$USER/Documents/GitHub/bspwm/.config/
-
-
-
 ```
+
+## sxhkd-helper-menu
+
+https://github.com/fiskhest/sxhkd-helper-menu
+
