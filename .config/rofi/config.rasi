@@ -6,7 +6,7 @@
 configuration {
     font:				"Sourcecode Pro Regular 10";
     show-icons:				true;
-    icon-theme:				"Arc-X-D";
+    icon-theme:				"BigSur-dark";
     display-drun:			"Apps";
     drun-display-format:		"{name}";
     scroll-method:			0;
