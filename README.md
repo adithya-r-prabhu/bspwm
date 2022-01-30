@@ -39,16 +39,9 @@
 ## Get involved at our forum:
 https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
-## Tutorial for bspwm-wm settings:
-- Background handled by nitrogen
-- Gtk3 theme handled by lxappearance-gtk3
-- Filebrowser = Thunar
-- Default Terminal-Emulator = Termite
-- Text-Editor = xed
-- Application Launcher = Rofi
-
-
-
+## Fonts used 
+Inter-Regular
+IosevkaTermNerdFontComplete
 
 ## To change icons on polybar
 
