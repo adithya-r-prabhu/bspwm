@@ -134,3 +134,9 @@ textbox-prompt-colon {
     margin:     0px 0.3em 0em 0em ;
     text-color: @normal-foreground;
 }
+element-icon {
+    horizontal-align: 0.5;
+    size:                           49px;
+    border:                         0px;
+    background-color:               @bg;
+}
