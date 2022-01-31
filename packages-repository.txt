@@ -8,7 +8,8 @@ archlinux-xdg-menu
 lxappearance-gtk3
 polkit-gnome
 xdg-user-dirs-gtk
-pcmanfm-gtk3
+thunar
+nautilus
 tumbler
 gvfs
 gvfs-mtp
@@ -27,6 +28,7 @@ sysstat
 nitrogen
 bluez-utils
 rofi
+dmenu
 xcursor-neutral
 xbindkeys
 paprefs
@@ -42,8 +44,14 @@ dunst
 arc-x-icons-theme
 arc-gtk-theme-eos
 capitaine-cursors
-galculator
+gnome-calculator
 gtk-engine-murrine
 seahorse
 ttf-nerd-fonts-symbols
 xorg-xbacklight
+pulsemixer
+dracula-cursors
+ranger
+gucharmap
+xorg-xsetroot
+mpv
