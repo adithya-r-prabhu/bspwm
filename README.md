@@ -41,6 +41,7 @@ https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
 ## Fonts used 
 Inter-Regular
+
 IosevkaTermNerdFontComplete
 
 ## To change icons on polybar
