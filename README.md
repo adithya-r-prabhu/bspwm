@@ -94,3 +94,8 @@ and click on terminal
 
 #### Reference 
 https://github.com/baskerville/bspwm/issues/232
+
+## Xrandr Monitor setup
+```
+xrandr  --output HDMI-0 --mode 1920x1080 --rate 74.97
+```
