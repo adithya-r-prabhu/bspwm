@@ -76,7 +76,7 @@ https://www.reddit.com/r/bspwm/comments/fb5z6j/is_it_possible_to_bind_shell_alia
 
 ## Fix X shaped cursor bspwm
 Install xsetroot
-```Fix X shaped cursor bspwm```
+```xorg-xsetroot```
 
 Run the command to change to normal mouse cursor
 
