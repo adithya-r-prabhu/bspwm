@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# & is equal to run in background
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 
@@ -45,7 +45,7 @@ sh ~/.screenlayout/monitor.sh &
 # Wallpaper
 nitrogen --restore &
 # Dex
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom
 picom -CGb &
 # Network Applet

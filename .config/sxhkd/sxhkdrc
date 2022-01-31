@@ -209,5 +209,9 @@ super + F1
 alt + s 
   flameshot gui
 
+alt + k 
+	~/Scripts/classlinks_dmenu_vesion.sh &
+
+
 
 
