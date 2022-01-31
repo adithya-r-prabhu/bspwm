@@ -200,7 +200,7 @@ super + Print
 super + w 
   microsoft-edge-beta
 
-super + n 
+super + {e,n }
   thunar  
 
 super + F1
