@@ -72,6 +72,7 @@ cp -r -l /home/$USER/.config/picom.conf /home/$USER/Documents/GitHub/bspwm/.conf
 ## sxhkd-helper-menu
 
 https://github.com/fiskhest/sxhkd-helper-menu
+https://www.reddit.com/r/bspwm/comments/fb5z6j/is_it_possible_to_bind_shell_aliases_with_sxhkd/
 
 ## Fix X shaped cursor bspwm
 Install xsetroot
@@ -84,7 +85,6 @@ Run the command to change to normal mouse cursor
 #### References
 https://www.reddit.com/r/bspwm/comments/8gwwlc/cursor_displays_x_when_not_over_window/
 
-https://www.reddit.com/r/bspwm/comments/fb5z6j/is_it_possible_to_bind_shell_aliases_with_sxhkd/
 
 ## Right click Context menu not working
 Run
