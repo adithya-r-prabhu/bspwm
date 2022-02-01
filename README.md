@@ -8,13 +8,13 @@
 
 <!-- Code that was here by default  -->
 
-<!-- ## To Install manually
+## To Install manually
 
-    git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
+    git clone https://github.com/adithya-r-prabhu/bspwm.git
     cd bspwm
     bash bspwm-install.sh
    
-## Contained In The Script
+<!-- ## Contained In The Script
     cp -R .config/* ~/.config/
         
     cp .gtkrc-2.0 ~/.gtkrc-2.0
