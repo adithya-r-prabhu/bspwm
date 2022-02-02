@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
 # & is equal to run in background
 pgrep -x sxhkd > /dev/null || sxhkd &
 

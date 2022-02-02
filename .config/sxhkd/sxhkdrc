@@ -4,19 +4,19 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	tilix
 
 # program launcher
 super + d
 	rofi -modi drun -show drun -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
+                -columns 2 -padding 50 -hide-scrollbar -terminal tilix \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
 
 # show open window
 alt + d
 	rofi -modi drun -show window -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
+                -columns 2 -padding 50 -hide-scrollbar -terminal tilix \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
 
@@ -31,7 +31,7 @@ alt + w
 
 # power-menu 
 super + shift + e
-     ~/.config/rofi/powermenu.sh
+     ~/.config/rofi/powermenu/powermenu.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
