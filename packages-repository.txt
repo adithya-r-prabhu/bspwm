@@ -55,3 +55,4 @@ ranger
 gucharmap
 xorg-xsetroot
 mpv
+xclip

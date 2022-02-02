@@ -3,6 +3,7 @@
 # Easy setup for testing
 mkdir ~/.local/share/fonts
 cp -R IosevkaTermNerdFontComplete.ttf ~/.local/share/fonts
+cp Inter-Regular.ttf /home/$NEW_USER/.local/share/fonts/
 cp -R .config/* ~/.config/
 chmod -R +x ~/.config/bspwm
 chmod -R +x ~/.config/polybar/scripts
