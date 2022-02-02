@@ -34,23 +34,30 @@ bspc config normal_border_color         "#073642"
 bspc config active_border_color         "#073642"
 
 
+
+
 # Autostart
 #
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
 # Bar
-~/.config/polybar/launch.sh &
+killall polybar
+sh ~/.config/polybar/launch.sh &
 # Notifications
+killall dunst
 /usr/bin/dunst &
 # Polkit
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # Wallpaper
+killall nitrogen
 nitrogen --restore &
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom
+killall picom
 picom -CGb &
 # Network Applet
+killall nm-applet
 nm-applet --indicator &
 
 # Cursor

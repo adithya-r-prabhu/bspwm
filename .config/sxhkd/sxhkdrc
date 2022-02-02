@@ -19,6 +19,16 @@ alt + d
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
+
+# show emoji picker
+alt + e 
+	~/.config/rofi/emoji/launcher.sh
+
+# switch windows
+alt + w
+	~/.config/rofi/app-switcher/app-switcher.sh
+
+
 # power-menu 
 super + shift + e
      ~/.config/rofi/powermenu.sh

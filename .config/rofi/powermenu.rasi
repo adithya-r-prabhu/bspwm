@@ -17,7 +17,7 @@ configuration {
 window {
     background-color:               @background;
     border:                         0;
-    padding:                        10;
+    padding:                        2;
     transparency:                   "real";
     width:                          180px;
     location:                       northwest;
