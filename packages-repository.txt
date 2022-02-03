@@ -54,5 +54,6 @@ ranger
 gucharmap
 xorg-xsetroot
 mpv
+xtitle
 xclip
 tilix
