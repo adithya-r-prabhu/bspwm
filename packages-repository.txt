@@ -19,7 +19,6 @@ gvfs-google
 gvfs-gphoto2
 gvfs-nfs
 gvfs-smb
-xfce4-terminal
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -56,3 +55,4 @@ gucharmap
 xorg-xsetroot
 mpv
 xclip
+tilix
