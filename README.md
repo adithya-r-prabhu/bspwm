@@ -35,12 +35,6 @@
 
     bash setup.sh
     
- ## environment variables stored in 
-``` 
- ~/.bashrc
- 
- /etc/environment
- ```
 ## Get involved at our forum:
 https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
