@@ -58,3 +58,7 @@ xtitle
 xclip
 tilix
 redshift
+system-monitoring-center
+microsoft-edge-stable
+firefox
+noto-fonts-emoji
