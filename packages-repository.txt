@@ -62,3 +62,8 @@ system-monitoring-center
 microsoft-edge-stable
 firefox
 noto-fonts-emoji
+grub-customizer
+flatpak
+eos-update-notifier
+copyq
+fluent-reader
