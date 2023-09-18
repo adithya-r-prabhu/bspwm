@@ -5,6 +5,9 @@
  -->
  
  ![image](https://user-images.githubusercontent.com/83577193/151557941-c7a88bc2-9e47-4a93-9b9e-d7e72cea26ae.png)
+![unknown-5](https://github.com/adithya-r-prabhu/bspwm/assets/83577193/eff30183-47eb-414f-8005-0db4d6c001d7)
+![unknown](https://github.com/adithya-r-prabhu/bspwm/assets/83577193/cc0d0c8a-497b-469e-8f6b-96ba91918efe)
+![unknown-1](https://github.com/adithya-r-prabhu/bspwm/assets/83577193/3a199cf0-a430-440c-8127-5007711b1dc0)
 
 <!-- Code that was here by default  -->
 
